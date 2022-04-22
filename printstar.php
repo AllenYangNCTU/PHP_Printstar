@@ -17,7 +17,7 @@ while($counter>-2){
         $counter--;
     }
     else if($counter>-2 && $counter<$N){
-        $star=$star-2;
+        $star-=2;
         $sp++;
         print(str_repeat("&nbsp&nbsp",$sp));
         print(str_repeat("*",$star)); 
